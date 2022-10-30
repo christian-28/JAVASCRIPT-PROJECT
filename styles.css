@@ -1,0 +1,86 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+ background: rgb(244, 176, 73);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ width: 100%;
+}
+
+section {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background: rgb(228, 204, 153);
+ width: 90%;
+ padding: 30px;
+ border-radius: 30px;
+}
+
+div {
+ display: block;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+}
+
+h1 {
+ font-size: 25px;
+ color: rgb(55, 54, 54)
+}
+
+p {
+ font-size: 50px;
+ font-family: sans-serif;
+ background-color: rgba(251, 202, 52, 0.637);
+ margin: 30px auto;
+ border-radius: 10px;
+ border: 1px solid rgba(360, 360, 360, .3);
+}
+
+button {
+ display: block;
+ font-weight: 700;
+ font-size: 16px;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ margin: 20px auto;
+ padding: 10px;
+ width: 50%;
+ cursor: pointer;
+ border: none;
+ border-radius: 5px;
+ color: rgb(27, 26, 26);
+}
+
+#add-btn {
+ background-color: rgb(114, 239, 114);
+ box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+ transition: .3s;
+}
+
+#add-btn:hover {
+ background-color: rgb(53, 242, 53);
+}
+
+#subtract-btn {
+ background-color: rgb(242, 136, 107);
+ box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  transition: .3s;
+}
+
+#subtract-btn:hover {
+ background-color: rgb(243, 112, 76);
+ box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+ transition: .3s;
+}
+
+
+
+
+
